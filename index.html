@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/92a78136b5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/siva.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hi, I'm a <span class="auto-type"></span><br> </h1>
+    
+            </div>
+        </div>
+    </div>
+  
+<!-- ---------------about------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG_20230813_141153-transformed-removebg-preview.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1> <br>
+                    <p>
+                        Hello World! I'm Sivaganesh, a Full Stack Developer Web Developer.I love combining the worlds
+                         of logic and creative design to make eye-catching,accessible,and user-friendly websites
+                         and applications.Technology leads, society follows. The move towards increasing inclusivity and diversity in the industry through representation is of importance to me.
+                           I'm excited to make the leap and continue refining my skills with the right company. </p>
+                           <div class="tab-titles">
+                            <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('course')">Course</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                           </div>
+                           <div class="tab-contents active-tab " id="skills">
+                            <ul>
+                                <li><span>Full-Stack-Developer</span><br>HTML,Css,Bootstrap,Javascript,React JS,NodeJS,Express JS,MongoDB,Core Java,Selenium,UI/UX</li>
+                                <li><span>C</span><br>Programming Language</li>
+                                <li><span>JAVA</span><br>Programming Language</li>
+                            </ul>
+                           </div>
+                           <div class="tab-contents" id="course">
+                            <ul>
+                                <li><span>2024</span><br>FUll-Stack-Development </li>
+                                <li><span>2022</span><br>Front-End Reactjs </li>
+                                <li><span>2019</span><br>NPTEL Programming in JAVA</li>
+                                <li><span>2019</span><br>Attened an Intenship on Python at Refinement Software Solutions,Coimbatore</li>
+                                <li><span>2018</span><br>Attened an Intenship on JAVA at Uniq Technologies,Coimbatore</li>
+                            </ul>
+                           </div>
+                           <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021</span><br>B.Tech Information Technology</li>
+                                <li><span>2017</span><br>Bharathi vidhyalaya matric Hr Sec School</li>
+                                <li><span>2015</span><br>Kurinchi Matriculation School</li>
+                            </ul>
+                           </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------services-------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Desinging</h2>
+                    <p>provides you with a customized website design that's perfect for your business or personal site. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>We offer comprehensive UI/UX services that include branding, responsive web design, mobile app design, user experience consulting, and promotional designs using the latest tools and technologies. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Software Testing</h2>
+                    <p>software that can be installed and run on a computer, tablet, smartphone or other electronic devices. </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+<!-----------portfolio----------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/snakegame.png">
+                <div class="layer">
+                    <h3>Snake Game</h3>
+                    <p>A Single Page Website about Snake game made using Javascript
+                    </p>
+                    <a href="https://sivaganesh2622.github.io/snakegame/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/xor.jpg">
+                <div class="layer">
+                    <h3>XOX Game</h3>
+                    <p>A Single Page Website about XOR Game made using Javascript
+                    </p>
+                    <a href="https://sivaganesh2622.github.io/XOX-game/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/todolist.webp">
+                <div class="layer">
+                    <h3> TODO-List Website</h3>
+                    <p>A Single Page Website about Things To remember made using Javascrtipt
+                    </p>
+                    <a href="https://sivaganesh2622.github.io/ToDO-Lists/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/qizz.jpg">
+                <div class="layer">
+                    <h3> Quiz Website</h3>
+                    <p> A Single Page Webite About Quiz App to Play something Intresting made using Javascript
+                    </p>
+                    <a href="https://sivaganesh2622.github.io/Quiz/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/notes.png">
+                <div class="layer">
+                    <h3> Notes Website</h3>
+                    <p>A Single Page Website about somethings To remember and noted in the website save and delete option enabled made using Javascrtipt
+                    </p>
+                    <a href="https://sivaganesh2622.github.io/ToDO-Lists/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/random.jpg">
+                <div class="layer">
+                    <h3> Random Number Game</h3>
+                    <p>The app connects you to talented people around the world.
+                        Download it from play store
+                    </p>
+                    <a href="https://sivaganesh2622.github.io/Random-Game/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="#"class="btn">See more</a>
+    </div>
+</div>
+<!--------------contact---------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>sivatech2622@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>9080460428</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100004938364975"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://instagram.com/_ak_siva?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://www.linkedin.com/in/siva-ganesh-68bb5016b"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/sivaganesh2622"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="MY CV.pdf (3).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="fa5e574a-9d6c-49c0-9426-28d4119a56fc">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email"required>
+                    <input type="tel"   name="Contact"placeholder="Your Number" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    <div id="result"></div>
+                </form>
+                
+            <span id="msg"></span>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright ⓒ Siva.Made with <i class="fa-solid fa-heart"></i> by Sivaganesh Sankar</p>
+    </div>
+</div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+  <script>
+    var typed = new Typed(".auto-type",{
+        strings : ["Full Stack Developer" ,"UIUX Designer","Software Tester"],
+        typeSpeed : 150,
+        backSpeed :150,
+        loop : true
+    })
+
+</script>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+
+        var sidemenu=document.getElementById("sidemenu");
+         function openmenu(){
+            sidemenu.style.right = "0";
+         }
+         function closemenu(){
+            sidemenu.style.right = "-200px";
+         }
+
+    </script>
+
+    
+<script>
+    const form = document.getElementById('form');
+    const result = document.getElementById('result');
+    
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const formData = new FormData(form);
+      const object = Object.fromEntries(formData);
+      const json = JSON.stringify(object);
+      result.innerHTML = "Please wait..."
+    
+        fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: json
+            })
+            .then(async (response) => {
+                let json = await response.json();
+                if (response.status == 200) {
+                    result.innerHTML = "Form submitted successfully";
+                } else {
+                    console.log(response);
+                    result.innerHTML = json.message;
+                }
+            })
+            .catch(error => {
+                console.log(error);
+                result.innerHTML = "Something went wrong!";
+            })
+            .then(function() {
+                form.reset();
+                setTimeout(() => {
+                    result.style.display = "none";
+                }, 3000);
+            });
+    });
+    </script>
+   
+ 
+   
+</body>
+</html>
